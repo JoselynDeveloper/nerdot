@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "VAGROUNDED LT-NORMAL.TTF";
+    src: url(../font/VAGROUNDED\ LT-NORMAL.TTF) format("truetype");
+}
+
+@font-face {
+    font-family: "VAGRoundedStd-Light.ttf";
+    src: url(../font/VAGRoundedStd-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-Regular.ttf";
+    src: url(../font/SF-Pro-Text-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-Light.ttf";
+    src: url(../font/SF-Pro-Text-Light.ttf) format("truetype");
+}
+
+
+
+body {
+    font-family: "VAGROUNDED LT-NORMAL.TTF" !important;
+}
+
+/* CABECERA DE LA PAGINA */
+.colorVagroundedLight li a {
+    font-family: "SF-Pro-Text-Light.ttf" !important;
+}
+
+.colorVagroundedLight a {
+    font-family: "SF-Pro-Text-Regular.ttf" !important;
+}
+
+.mega-menu {
+    padding: 0px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    box-shadow: none !important;
+}
+
+.navbar,
+.pagination .page-item.active .page-link {
+    box-shadow: none !important;
+}
+
+.colorMegaM {
+    background: #d0102b !important;
+}
+
+.circuloMegaM {
+    width: 80px;
+    display: block;
+    float: right;
+    height: 75px;
+    border-radius: 999px;
+    margin-right: 112px;
+    margin-top: -36px;
+    background: #d0102b !important;
+}
+
+.btn .fa-3x,
+.btn-floating .fa-3x {
+    font-size: 25px !important;
+}
+
+.borderMegaM {
+    border-radius: 40px;
+}
+
+.colormenu {
+    color: #0074c9 !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.colorInstagram {
+    color: #0074c9 !important;
+}
+
+.dropleft .dropdown-menu {
+    margin-right: -12.300rem !important;
+    margin-top: 6rem !important;
+}
+
+.dropdown-item:hover {
+    background: #d0102b !important;
+}
+
+.dropdown-item span:hover {
+    background: #0074c9 !important;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+.navbar .dropdown-menu a {
+    padding-left: 47px;
+    margin-bottom: 12px;
+}
+
+/* LOGO CORPORATIVO */
+.navbar-brand img {
+    width: 230px;
+}
+
+/* CUERPO DE LA PAGINA */
+
+.circuloAzul {
+    width: 126%;
+    height: 1593px;
+    background: -webkit-linear-gradient(#0074c8, #f1f6fd);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0074c8, #f1f6fd);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0074c8, #f1f6fd);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0074c8, #f1f6fd);
+    /* Standard syntax */
+    margin-top: 108px;
+    border-radius: 999px;
+    margin-left: -164px;
+    display: none;
+}
+
+.texto-servicios {
+    z-index: 3;
+    margin-left: 35%;
+    font-size: 43px;
+    display: block;
+    position: absolute;
+    margin-top: 109px;
+}
+
+.circuloServicios {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #d0102b;
+    z-index: 1;
+    border-radius: 999px;
+    margin-top: -16px;
+    margin-left: -19px;
+}
+
+.textoservicios {
+    z-index: 2;
+    position: relative;
+}
+
+.primero {
+    width: 610px !important;
+    color: #fff;
+    height: 255px;
+    text-align: center;
+    border-radius: 60px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.segundo {
+    background: white;
+    color: #0074c9;
+    width: 178px;
+    height: 255px;
+    text-align: center;
+    border-radius: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.textoSlider {
+    width: 87px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 12px;
+}
+
+.carouselClick {
+    display: block !important;
+    width: 16% !important;
+    float: right;
+    margin: auto;
+}
+
+.carouselSinFondo {
+    background: none !important;
+    color: #60a6d9 !important;
+}
+
+.caro-item {
+    width: 150% !important;
+}
+
+.caroucelSlider {
+    width: 126% !important;
+    height: 1593px;
+    margin-left: -164px !important;
+    padding-top: 215px;
+    z-index: 2;
+    border-radius: 999px;
+    margin-left: -43px;
+    background-color: #0074c9 !important;
+    background: linear-gradient(to bottom, #0074c9, #0074c9 50%, #0074c9 72%, #fff 94%);
+    overflow: hidden;
+
+}
+
+.segundoCarousel {
+    position: absolute;
+    z-index: 3;
+    margin-top: -765px; 
+    width: 93%;
+    margin-left: 45px;
+    border-radius: 999px;
+}
+
+.segundoCarousel img {
+    border-radius: 78px;
+}
+
+.carousel-indicators {
+    bottom: 38px !important;
+}
+
+.segundoCarousel .carousel-indicators li {
+    margin-right: 10px !important;
+    margin-left: 5px !important;
+}
+
+.segundoCarousel .carousel-indicators .active{
+    background-color: #d1102b !important;
+}
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+    width: 36px !important;
+    height: 35px !important;
+    margin-right: -41px !important;
+}
+
+.caroucelSlider .carousel .carousel-indicators li {
+    width: 50px !important;
+    height: 5px !important;
+    border-radius: 11px !important;
+    cursor: pointer;
+}
+
+.pedazo{
+    background-image: url("../img/pedaso.png");
+    height: 3283px;
+    margin-top: -220px;
+}
