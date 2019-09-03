@@ -237,7 +237,7 @@ body {
 }
 
 .mouserojo {
-    background:#d0102b;
+    background: #d0102b;
     width: 24px;
     height: 37px;
     position: absolute;
@@ -337,5 +337,6 @@ body {
     background-image: url("../img/pedaso.png");
     height: 3283px;
     margin-top: -220px;
-    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
