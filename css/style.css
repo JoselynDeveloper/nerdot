@@ -24,6 +24,13 @@ body {
     font-family: "VAGROUNDED LT-NORMAL.TTF" !important;
 }
 
+.contenedor {
+    max-width: 1263px !important;
+    position: relative;
+    overflow-x: hidden;
+    margin: auto;
+}
+
 /* CABECERA DE LA PAGINA */
 .colorVagroundedLight li a {
     font-family: "SF-Pro-Text-Light.ttf" !important;
@@ -62,6 +69,36 @@ body {
     background: #d0102b !important;
 }
 
+.sizeIcon a {
+    display: flex;
+}
+
+.sizeIcon a i {
+    font-size: 60px;
+}
+
+.sizeIcon a span {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.sizeIcon a img {
+    width: 50px !important;
+}
+
+.homeTheater {
+    font-size: 115px !important;
+    display: block;
+    height: 83px !important;
+    margin-top: -20px;
+    margin-left: -24px;
+}
+
+.icon-cableado {
+    transform: rotate(90deg);
+    margin-left: -4px;
+}
+
 .btn .fa-3x,
 .btn-floating .fa-3x {
     font-size: 25px !important;
@@ -77,6 +114,15 @@ body {
     font-weight: 600 !important;
 }
 
+.linkBlog {
+    border: 1px solid;
+    border-radius: 999px;
+    margin-top: 8px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
 .colorInstagram {
     color: #0074c9 !important;
 }
@@ -90,15 +136,19 @@ body {
     background: #d0102b !important;
 }
 
-.dropdown-item span:hover {
-    background: #0074c9 !important;
+.dropdown-item span {
     border-radius: 7px;
     padding: 4px;
 }
 
+.dropdown-item span:hover {
+    background: #0074c9 !important;
+}
+
 .navbar .dropdown-menu a {
     padding-left: 47px;
-    margin-bottom: 12px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 /* LOGO CORPORATIVO */
@@ -187,6 +237,17 @@ body {
     margin: auto;
 }
 
+.mouserojo {
+    background:#d0102b;
+    width: 24px;
+    height: 37px;
+    position: absolute;
+    border-radius: 19px;
+    margin-left: 108px;
+    margin-top: -39px;
+    z-index: 1;
+}
+
 .carouselSinFondo {
     background: none !important;
     color: #60a6d9 !important;
@@ -196,11 +257,34 @@ body {
     width: 150% !important;
 }
 
+.primeraCapCirculo {
+    width: 1620px;
+    height: 1620px;
+    position: absolute;
+    background: linear-gradient(to bottom, #99c8e9, #99c8e9 50%, #99c8e9 72%, #fff 94%);
+    margin-left: -178px !important;
+    border-radius: 999px;
+    z-index: 1;
+    margin-top: 34px;
+}
+
+.segundaCapCirculo {
+    width: 1647px;
+    height: 1647px;
+    background: linear-gradient(to bottom, #cfe5f5, #cfe5f5 50%, #cfe5f5 72%, #fff 94%);
+    margin-left: -192px !important;
+    border-radius: 999px;
+    z-index: 0;
+    margin-top: 20px;
+}
+
+
 .caroucelSlider {
-    width: 126% !important;
+    width: 1593px !important;
     height: 1593px;
     margin-left: -164px !important;
     padding-top: 215px;
+    position: absolute;
     z-index: 2;
     border-radius: 999px;
     margin-left: -43px;
@@ -213,7 +297,7 @@ body {
 .segundoCarousel {
     position: absolute;
     z-index: 3;
-    margin-top: -765px; 
+    margin-top: 904px;
     width: 93%;
     margin-left: 45px;
     border-radius: 999px;
@@ -232,11 +316,12 @@ body {
     margin-left: 5px !important;
 }
 
-.segundoCarousel .carousel-indicators .active{
+.segundoCarousel .carousel-indicators .active {
     background-color: #d1102b !important;
 }
 
-.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+.carousel .carousel-control-next-icon,
+.carousel .carousel-control-prev-icon {
     width: 36px !important;
     height: 35px !important;
     margin-right: -41px !important;
@@ -249,8 +334,9 @@ body {
     cursor: pointer;
 }
 
-.pedazo{
+.pedazo {
     background-image: url("../img/pedaso.png");
     height: 3283px;
     margin-top: -220px;
+    display: none;
 }

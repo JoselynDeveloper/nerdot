@@ -14,542 +14,348 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+  <!--iconosMegaMenu-->
+  <link rel="stylesheet" href="./css/iconosMM/style.css">
 
 </head>
 
 <body>
 
-  <!-- CABECERA -->
-  <div class="container-fluid pt-3 px-4 pr-4">
-    <header>
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark  mt-5">
+  <!--Contenedor-->
+  <div class="contenedor">
+    <!-- CABECERA -->
+    <div class="container-fluid pt-3 px-4 pr-4">
+      <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark  mt-5">
 
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">
-          <img src="./img/logo_nerdot.jpg" alt="logocorporativo">
-        </a>
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo_nerdot.jpg" alt="logocorporativo">
+          </a>
 
-        <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <!-- Collapse button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="basicExampleNav">
 
-          <!-- Links -->
-          <ul class="navbar-nav ml-auto colormenu colorVagroundedLight">
-            <li class="nav-item active">
-              <a class="nav-link colormenu" href="#">Inicio
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link colormenu" href="#">Servicios</a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link colormenu" href="#">Tienda<i class="fas fa-store-alt ml-2"></i></a>
-            </li>
-            <li class="nav-item ml-5">
-              <a class="nav-link colormenu" href="#">Contacto</a>
-            </li>
-          </ul>
-          <!-- Links -->
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto colormenu colorVagroundedLight">
+              <li class="nav-item active mr-3">
+                <a class="nav-link colormenu" href="#">Inicio
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item ml-5  mr-3">
+                <a class="nav-link colormenu" href="#">Servicios</a>
+              </li>
+              <li class="nav-item ml-5 mr-4">
+                <a class="nav-link colormenu linkBlog" href="#">Blog</a>
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link colormenu" href="#">Contacto</a>
+              </li>
+            </ul>
+            <!-- Links -->
 
-
-          <div class="my-0">
-            <div class="btn-group dropleft">
-              <div class="dropdown ml-4">
-                <button class="btn rounded-pill white-text mega-menu colorMegaM" type="button" id="dropdownMenuButton"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="fas fa-align-right fa-3x"></i>
-                </button>
-                <div class="dropdown-menu mt-5 bg-danger text-white colorMegaM borderMegaM"
-                  aria-labelledby="dropdownMenuButton">
-                  <div class="circuloMegaM"></div>
-                  <div class="d-sm-flex d-md-block my-3">
-                    <div class="d-md-flex colorVagroundedLight">
-                      <div class="mx-4 border-right">
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Automatización</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Control universal</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Video Walls</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Nerdot Cloud</span></a>
-                      </div>
-                      <div class="mx-4 border-right">
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Sistema de sonido</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Home Theater</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Cableado</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Proyectores</span></a>
-                      </div>
-                      <div class="mx-4 border-right">
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Salones de Conferencia</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Laboratorio</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Centrales telefónica</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Escaneo de espacio 360</span></a>
-                      </div>
-                      <div class="mx-4">
-
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Azul, logística digital</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Controles de acceso</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Cámaras de seguridad</span></a>
-                        <a class="dropdown-item text-white" href="#">
-                          <i class="fas fa-ambulance fa-2x mr-3"></i><span>Extensión Wifi</span></a>
+            <!--SUBMENU-->
+            <div class="my-0">
+              <div class="btn-group dropleft">
+                <div class="dropdown ml-4">
+                  <button class="btn rounded-pill white-text mega-menu colorMegaM" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-align-right fa-3x"></i>
+                  </button>
+                  <div class="dropdown-menu mt-5 bg-danger text-white colorMegaM borderMegaM"
+                    aria-labelledby="dropdownMenuButton">
+                    <div class="circuloMegaM"></div>
+                    <div class="d-sm-flex d-md-block my-3">
+                      <div class="d-md-flex colorVagroundedLight sizeIcon">
+                        <div class=" border-right">
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-automatizacion"></i><span>Automatización</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-video-walls"></i><span>Video Walls</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-nerdot-cloud"></i><span>Nerdot Cloud</span></a>
+                        </div>
+                        <div class="mx-3 border-right">
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-sistema-de-sonido"></i><span>Sistema de sonido</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-home-theater homeTheater"></i><span style="margin-left: -3px;">Home
+                              Theater</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-cableado"></i><span style="margin-left: 27px;">Cableado</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-proyectores"></i><span>Proyectores</span></a>
+                        </div>
+                        <div class="mx-3 border-right">
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-salones-de-conferencias"></i><span>Salones de Conferencia</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-laboratorio"></i><span style="margin-left: 36px;">Laboratorio</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-centrales-telefonicas"></i><span>Centrales telefónica</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-escaneo-de-espacio-360"></i><span>Escaneo de espacio 360</span></a>
+                        </div>
+                        <div class="mx-3">
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-logostica-digital"></i><span>Logística digital</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-controles-de-acceso"></i><span>Controles de acceso</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-camaras-de-seguridad"></i><span>Cámaras de seguridad</span></a>
+                          <a class="dropdown-item text-white" href="#">
+                            <i class="icon-extension-wifi"></i><span>Extensión Wifi</span></a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="ml-5">
-                <a href="#"><i class="fab fa-instagram fa-2x colorInstagram"></i></a>
+                <div class="ml-5">
+                  <a href="#"><i class="fab fa-instagram fa-2x colorInstagram"></i></a>
+                </div>
               </div>
             </div>
-          </div>
+            <!--SUBMENU-->
 
+          </div>
+          <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+      </header>
+
+
+    </div><!-- CABECERA -->
+
+    <!--Cuerpo de la pagina-->
+    <section class="mt-5 pt-3">
+      <div class="circuloAzul">
+      </div>
+      <div class="white-text texto-servicios">
+        <div class="circuloServicios"></div>
+        <span class="textoservicios">Servicios tecnológicos</span>
+      </div>
+
+      <div class="mt-5 bg-primary caroucelSlider">
+        <div class="bd-example">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!--AQUI EL OTRO-->
+            <div class="carousel-inner">
+              <div class="carousel-item caro-item" style="height: 220px;">
+                <!-- <div class="primero carouselSinFondo" style="margin-left: -78px;">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    2Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </div>
+                </div> -->
+                <div class="primero" style="margin-left: 532px;">
+                    <img src="./img/svg/Layer 13-blanco.svg" alt="" style="float: left;width: 9rem; margin-top: -37px;">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.1
+                  </div>
+                </div>
+                <div class="primero carouselSinFondo">
+                  <img src="./img/svg/Layer 12 copy-1.svg" alt="pc" class="d-none slider2b" style="width: 9em;"
+                    srcset="">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active caro-item" style="height: 220px;">
+                <div class="primero carouselSinFondo" style="margin-left: -78px;">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </div>
+                </div>
+                <div class="primero">
+                  <img src="./img/svg/Layer 12 copy.svg" alt="" style="float: left;width: 9rem;">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.2
+                  </div>
+                </div>
+                <div class="primero carouselSinFondo">
+                  <img src="./img/svg/Layer 10.svg" alt="" style="float: left;width: 9rem;">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item caro-item" style="height: 220px;">
+                <div class="primero carouselSinFondo" style="margin-left: -78px;">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </div>
+                </div>
+                <div class="primero">
+                    <img src="./img/svg/Layer 10-blanco.svg" alt="" style="float: left;width: 9rem;">
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.3
+                  </div>
+                </div>
+                <!-- <div class="primero carouselSinFondo">
+                  <i class="fas fa-laptop fa-7x" style="float: left;"></i>
+                  <div style="float: right;width: 65%;" class="mr-5">
+                    1Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li style="cursor:default;"></li>
+              <li style="cursor:default;" class="active"></li>
+              <li style="cursor:default;"></li>
+            </ol>
+            <div class="carousel-inner ">
+
+              <div class="carousel-item carouselClick" style="height: 387px;  margin-right: 390px;">
+                <div class="segundo iconSlider3 carouselSinFondo" data-target="#carouselExampleCaptions"
+                  data-slide-to="2">
+                  <img src="./img/svg/Layer 10-azulfuerte.svg" alt="pc" class="d-none slider1a" style="width: 7em;" srcset="">
+                  <img src="./img/svg/Layer 10.svg" alt="pc" class="slider1b" style="width: 7em;" srcset="">
+                  <div class="textoSlider">
+                    Integración de sistemas
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item carouselClick" style="height: 387px;">
+                <div class="segundo iconSlider2" data-target="#carouselExampleCaptions" data-slide-to="1">
+                  <img src="./img/svg/Layer 12 copy-1.svg" alt="pc" class="d-none slider2b" style="width: 7em;z-index: 2;position: relative;"
+                    srcset="">
+                  <img src="./img/svg/Layer 12.svg" alt="pc" class="slider2a" style="width: 7em;z-index: 2;position: relative;" srcset="">
+                  <div class="mouserojo"></div>
+                  <div class="textoSlider">
+                    logística digital
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item carouselClick" style="height: 387px;">
+                <div class="segundo iconSlider1 carouselSinFondo" data-target="#carouselExampleCaptions"
+                  data-slide-to="0">
+                  <img src="./img/svg/Layer 13-azulfuerte.svg" alt="pc" class="d-none slider3b" style="width: 7em;" srcset="">
+                  <img src="./img/svg/Layer 13.svg" alt="pc" class="slider3a" style="width: 7em;" srcset="">
+                  <div class="textoSlider">
+                    Servicios recurrentes y cloud
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-        <!-- Collapsible content -->
-
-      </nav>
-      <!--/.Navbar-->
-    </header>
-
-
-  </div><!-- CABECERA -->
-
-  <section class="mt-5 pt-3">
-    <div class="circuloAzul">
-    </div>
-    <div class="white-text texto-servicios">
-      <div class="circuloServicios"></div>
-      <span class="textoservicios">Servicios tecnológicos</span>
-    </div>
-
-    <div class="mt-5 bg-primary caroucelSlider">
-      <div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
-          <!--AQUI EL OTRO-->
-          <div class="carousel-inner">
-            <div class="carousel-item caro-item" style="height: 220px;">
-              <div class="primero carouselSinFondo" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.1
-                </div>
-              </div>
-              <div class="primero carouselSinFondo">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active caro-item" style="height: 220px;">
-              <div class="primero carouselSinFondo" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.2
-                </div>
-              </div>
-              <div class="primero carouselSinFondo">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item caro-item" style="height: 220px;">
-              <div class="primero carouselSinFondo" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.3
-                </div>
-              </div>
-              <div class="primero carouselSinFondo">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item caro-item" style="height: 220px;">
-              <div class="primero carouselSinFondo" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.4
-                </div>
-              </div>
-              <div class="primero carouselSinFondo">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="carousel-indicators">
-            <li style="cursor:default;" ></li>
-            <li style="cursor:default;" class="active"></li>
-            <li style="cursor:default;"></li>
-            <li style="cursor:default;"></li>
+      </div>
+      <!--Segundo carousel-->
+      <div class="segundoCarousel">
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators ">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="3"></li>
           </ol>
-          <div class="carousel-inner ">
-            <div class="carousel-item active carouselClick" style="height: 387px; margin-right: 262px;">
-              <div class="segundo iconSlider4 carouselSinFondo" data-target="#carouselExampleCaptions"
-                data-slide-to="3">
-                <i class="fas fa-laptop fa-7x"></i>
-                <div class="textoSlider">
-                  Reparación y recuperación de data
-                </div>
-              </div>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./img/1.jpg" alt="First slide">
             </div>
-            <div class="carousel-item carouselClick" style="height: 387px;">
-              <div class="segundo iconSlider3 carouselSinFondo" data-target="#carouselExampleCaptions"
-                data-slide-to="2">
-                <i class="fas fa-laptop fa-7x"></i>
-                <div class="textoSlider">
-                  Integración de sistemas
-                </div>
-              </div>
+            <!--/First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/1.jpg" alt="Second slide">
             </div>
-            <div class="carousel-item carouselClick" style="height: 387px;">
-              <div class="segundo iconSlider2" data-target="#carouselExampleCaptions" data-slide-to="1">
-                <i class="fas fa-laptop fa-7x"></i>
-                <div class="textoSlider">
-                  logística digital
-                </div>
-              </div>
+            <!--/Second slide-->
+            <!--Third slide-->
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/1.jpg" alt="Third slide">
             </div>
-            <div class="carousel-item carouselClick" style="height: 387px;">
-              <div class="segundo iconSlider1 carouselSinFondo" data-target="#carouselExampleCaptions"
-                data-slide-to="0">
-                <i class="fas fa-laptop fa-7x"></i>
-                <div class="textoSlider">
-                  Servicios recurrentes y cloud
-                </div>
-              </div>
+            <!--/Third slide-->
+            <!--four slide-->
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./img/1.jpg" alt="four slide">
             </div>
+            <!--/four slide-->
           </div>
-
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
         </div>
+        <!--/.Carousel Wrapper-->
       </div>
-    </div>
-    <div class="clearfix">...</div>
-    <!--Segundo carousel-->
-    <div class="segundoCarousel">
-      <!--Carousel Wrapper-->
-      <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators ">
-          <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-          <li data-target="#carousel-example-1z" data-slide-to="3"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-          <!--First slide-->
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="./img/1.jpg"
-              alt="First slide">
-          </div>
-          <!--/First slide-->
-          <!--Second slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/1.jpg"
-              alt="Second slide">
-          </div>
-          <!--/Second slide-->
-          <!--Third slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/1.jpg" alt="Third slide">
-          </div>
-          <!--/Third slide-->
-          <!--four slide-->
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/1.jpg" alt="four slide">
-          </div>
-          <!--/four slide-->
-        </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
-      </div>
-      <!--/.Carousel Wrapper-->
-    </div>
-    <div class="pedazo">
+      <!--Segundo carousel-->
 
-    </div>
+      <!--primera capa del circulo-->
+      <div class="primeraCapCirculo"></div>
+      <!--primera capa del circulo-->
 
-  </section>
+      <!--primera capa del circulo-->
+      <div class="segundaCapCirculo"></div>
+      <!--primera capa del circulo-->
 
-  <!-- <div class="mt-5 bg-primary py-5">
-    <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
-
-        #AQUI EL OTRO
-        <div class="carousel-inner">
-            <div class="carousel-item caro-item" style="height: 220px;">
-              <div class="primero" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active caro-item" style="height: 220px;">
-              <div class="primero" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item caro-item" style="height: 220px;">
-              <div class="primero" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item caro-item" style="height: 220px;">
-              <div class="primero" style="margin-left: -78px;">
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-              <div class="primero">
-                <i class="fas fa-laptop fa-7x" style="float: left;"></i>
-                <div style="float: right;width: 65%;" class="mr-5">
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </div>
-              </div>
-            </div>
-          </div>
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner ">
-          <div class="carousel-item active carouselClick"  style="height: 387px; margin-right: 262px;">
-            <div class="segundo iconSlider4 carouselSinFondo" data-target="#carouselExampleCaptions" data-slide-to="3">
-              <i class="fas fa-laptop fa-7x"></i>
-              <div class="textoSlider">
-                logística digital
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item carouselClick" style="height: 387px;">
-            <div class="segundo iconSlider3 carouselSinFondo" data-target="#carouselExampleCaptions" data-slide-to="2">
-              <i class="fas fa-laptop fa-7x"></i>
-              <div class="textoSlider">
-                logística digital
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item carouselClick" style="height: 387px;">
-            <div class="segundo iconSlider2" data-target="#carouselExampleCaptions" data-slide-to="1">
-              <i class="fas fa-laptop fa-7x"></i>
-              <div class="textoSlider">
-                logística digital
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item carouselClick" style="height: 387px;">
-              <div class="segundo iconSlider1 carouselSinFondo" data-target="#carouselExampleCaptions" data-slide-to="0">
-                <i class="fas fa-laptop fa-7x"></i>
-                <div class="textoSlider">
-                  logística digital
-                </div>
-              </div>
-            </div>
-        </div>
+      <div class="pedazo">
 
       </div>
-    </div>
-  </div>  -->
+
+    </section>
+  </div>
+  <!--Contenedor-->
+
+
+
 
   <!-- <div class="container" style="height: 800px;">
     <h1>Tipo de letras para el diseño</h1>
