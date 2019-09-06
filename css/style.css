@@ -18,27 +18,44 @@
     src: url(../font/SF-Pro-Text-Light.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "SFProText-Heavy.ttf";
+    src: url(../font/SFProText-Heavy.ttf) format("truetype");
+}
+
+.VAGROUNDED-LT-NORMAL {
+    font-family: "VAGROUNDED LT-NORMAL.TTF" !important;
+}
+
+.VAGRoundedStd-Light {
+    font-family: "VAGRoundedStd-Light.ttf" !important;
+}
+
+.SF-Pro-Text-Regular {
+    font-family: "SF-Pro-Text-Regular.ttf" !important;
+}
+
+.SF-Pro-Text-Light {
+    font-family: "SF-Pro-Text-Light.ttf" !important;
+}
+
+.SFProText-Heavy {
+    font-family: "SFProText-Heavy.ttf" !important;
+}
 
 
 body {
-    font-family: "VAGROUNDED LT-NORMAL.TTF" !important;
+    /* font-family: "VAGROUNDED LT-NORMAL.TTF" !important; */
 }
 
 .contenedor {
     max-width: 1263px !important;
     position: relative;
     margin: auto;
+    overflow-x: hidden;
 }
 
 /* CABECERA DE LA PAGINA */
-.colorVagroundedLight li a {
-    font-family: "SF-Pro-Text-Light.ttf" !important;
-}
-
-.colorVagroundedLight a {
-    font-family: "SF-Pro-Text-Regular.ttf" !important;
-}
-
 .mega-menu {
     padding: 0px !important;
     padding-left: 30px !important;
@@ -73,7 +90,7 @@ body {
 }
 
 .sizeIcon a i {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .sizeIcon a span {
@@ -86,11 +103,11 @@ body {
 }
 
 .homeTheater {
-    font-size: 115px !important;
+    font-size: 100px !important;
     display: block;
-    height: 83px !important;
-    margin-top: -20px;
-    margin-left: -24px;
+    height: 63px !important;
+    margin-top: -13px;
+    margin-left: -21px;
 }
 
 .icon-cableado {
@@ -333,10 +350,180 @@ body {
     cursor: pointer;
 }
 
-.pedazo {
-    background-image: url("../img/pedaso.png");
-    height: 3283px;
-    margin-top: -220px;
+.masRequerido1 {
+    background-image: url("../img/svg/fondomasrequerido1.svg");
+    height: 463px;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: -80px;
+}
+
+.masRequerido2 {
+    background-image: url("../img/svg/fondomasrequerido2.svg");
+    height: 687px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -218px;
+}
+
+.masRequerido {
+    width: 100%;
+    display: block;
+    background: #084779;
+    margin-left: 2px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.masRequeridocirculor {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #d0102b;
+    z-index: 1;
+    border-radius: 999px;
+    margin-top: -120px;
+    margin-left: 396px;
+}
+
+.masRequeridotext {
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 432px;
+    margin-top: -96px;
+}
+
+.masRequeridoIcon {
+    background: #084779;
+}
+
+.masRequeridoIcon .icon1 {
+    width: 200px;
+}
+
+.masRequeridoIcon .icon2 {
+    width: 150px;
+}
+
+.masRequeridoAll {
+    display: flex;
+    justify-content: center;
+}
+
+.masRequeridoAll span {
+    display: block;
+    width: 200px;
+    color: #fff;
+}
+
+.masRequeridoAll2 {
+    margin-top: -65px;
+}
+
+.masRequeridoAll1y3 {
+    margin-top: -15px;
+}
+
+.nuestraexperiencia {
+    width: 116%;
+    height: 1291px;
+    background: #f30827;
+    border-top-left-radius: 715px;
+    border-top-right-radius: 715px;
+    margin-top: -143px;
+    margin-left: -101px;
+    display: flex;
+    justify-content: center;
+}
+
+.nuestraexperienciaChat {
+    margin-top: 85px;
+    width: 40%;
+    text-align: center;
+}
+
+.nuestraexperienciaChat .iconchat {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.enviarchat {
+    width: 15%;
+    font-size: 20px;
+    padding: 0px !important;
+    height: 37px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 498px;
+    margin-top: -37px;
+    border: none;
+    color: #24d490;
+}
+
+.reparacionicon {
+    margin-left: -158px;
+}
+
+.reparacionicon img {
+    width: 878px;
+}
+
+.nuestraexperiencia1 {
+    background: #f30827;
+}
+
+.nuestraexperiencia2 {
+    background: #f30827;
+}
+
+.nuestraexperiencia1 img {
+    width: 300px;
+}
+
+.equipod {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-left: -341px;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.equipovalue {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-left: -341px;
+    margin-top: 50px;
+    font-size: 77px;
+    font-family: "SFProText-Heavy.ttf" !important;
+}
+
+.clientes {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-left: -341px;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.clientesvalue {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin-left: -338px;
+    margin-top: 63px;
+    font-size: 64px;
+    font-family: "SFProText-Heavy.ttf" !important;
+}
+
+.footer{
+    background: #00487c;
+}
+
+.footer .iconfooter{
+    width: 100%;
 }
